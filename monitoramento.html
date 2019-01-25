@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/monitoramento.css">
+  <link rel="stylesheet" href="css/geral.css">
+  <link rel="stylesheet" href="materialize/css/materialize.css">
+  <title>Highfiren App</title>
+
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+         <div class="row">
+            <div class="col s3 m3 l3">
+                <a href="home.html"><i class="material-icons prefix medium center fa fa-home roxo-text"></i></a>
+            </div>
+            <div class="col s3 m3 l3">
+                <a href="mapa.html"><i class="material-icons prefix medium center fa fa-map-marker roxo-text"></i></a>
+            </div>
+            <div class="col s3 m3 l3">
+                <a href="definicoes.html"><i class="material-icons prefix medium center fa fa-gear roxo-text"></i></a>
+            </div>
+            <div class="col s3 m3 l3">
+                <a id="logOutButton" href="index.html"><i class="material-icons prefix medium center fa fa-sign-out roxo-text"></i></a>
+            </div>
+          
+         </div>
+            
+          </div>
+        </nav>
+      </div>
+    <div class="container conteudo">
+            <div class="row">
+              <br>
+              <h5 class="black-text center">Dashboard</h5>
+              <br>
+                    <div class="col s12 m6 l6">
+                        <div title="DHT-Temperature" class="card lista">
+
+                            <div class="card-image center">
+                                <span id="currentTemp" class="statistic black-text">-</span>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">
+                                  Temperatura do Ar
+                                  <i class="material-icons right">more_vert</i>
+                                </span>
+                                Clique para ver histórico
+                              </div>
+                              <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">
+                                  Histórico
+                                  <i class="material-icons right">close</i>
+                                </span>
+                                <canvas id="tempLineChart"></canvas>
+                              </div>
+                          
+                            </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div title="DHT-Humidacity" class="card lista">
+                            
+                          <div class="card-image center">
+                                <span id="currentUmid" class="statistic black-text">-</span>
+                              </div>
+                              <div class="card-content activator">
+                                <span class="card-title grey-text text-darken-4">
+                                  Umidade do Ar
+                                  <i class="material-icons right">more_vert</i>
+                                </span>
+                                Clique para ver histórico
+                              </div>
+                              <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">
+                                  Histórico
+                                  <i class="material-icons right">close</i>
+                                </span>
+                                <canvas id="umidLineChart"></canvas>
+                              </div>
+
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                        <div class="col s12 m12 l6">
+                            <div class="card">
+
+                                <div class="card-image center">
+                                <span id="currentTemp" class="statistic black-text">-</span>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">
+                                  Temperatura do Solo
+                                  <i class="material-icons right">more_vert</i>
+                                </span>
+                                Clique para ver histórico
+                              </div>
+                              <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">
+                                  Histórico
+                                  <i class="material-icons right">close</i>
+                                </span>
+                                <canvas id=""></canvas>
+                              </div>
+                          
+                            </div>
+                        </div>
+               
+                        <div class="col s12 m12 l6">
+                            <div class="card">
+                                
+                                <div class="card-image center">
+                                    <span id="currentUmid" class="statistic black-text">-</span>
+                                  </div>
+                                  <div class="card-content activator">
+                                    <span class="card-title grey-text text-darken-4">
+                                      Umidade do Solo
+                                      <i class="material-icons right">more_vert</i>
+                                    </span>
+                                    Clique para ver histórico
+                                  </div>
+                                  <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">
+                                      Histórico
+                                      <i class="material-icons right">close</i>
+                                    </span>
+                                    <canvas id="u"></canvas>
+                                  </div>
+
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col s12 m12 l6">
+                          <div class="card">
+                              
+                              <div class="card-image center">
+                                  <span id="currentUmid" class="statistic black-text">-</span>
+                                </div>
+                                <div class="card-content activator">
+                                  <span class="card-title grey-text text-darken-4">
+                                    Velocidade do Vento
+                                    <i class="material-icons right">more_vert</i>
+                                  </span>
+                                  Clique para ver histórico
+                                </div>
+                                <div class="card-reveal">
+                                  <span class="card-title grey-text text-darken-4">
+                                    Histórico
+                                    <i class="material-icons right">close</i>
+                                  </span>
+                                  <canvas id=""></canvas>
+                                </div>
+
+                          </div>
+                      </div>
+             
+                    <div class="col s12 m12 l6">
+                        <div class="card">
+                            
+                            <div class="card-image center">
+                                <span id="currentUmid" class="statistic black-text">-</span>
+                              </div>
+                              <div class="card-content activator">
+                                <span class="card-title grey-text text-darken-4">
+                                  Direção do Vento
+                                  <i class="material-icons right">more_vert</i>
+                                </span>
+                                Clique para ver histórico
+                              </div>
+                              <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">
+                                  Histórico
+                                  <i class="material-icons right">close</i>
+                                </span>
+                                <canvas id=""></canvas>
+                              </div>
+
+                        </div>
+                    </div>
+              </div>
+           
+    </div>
+    
+  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/add-firebase.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.js"></script>
+  <script type="text/javascript" src="js/Chart.js"></script>
+  <script type="text/javascript" src="js/Chart.bundle.js"></script>
+
+
+
+ 
+  <script src="js/list-humidacity.js"></script>
+
+ 
+</body>
+</html>
+ 

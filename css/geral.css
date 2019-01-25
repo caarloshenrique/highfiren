@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .conteudo {
+    flex: 1;
+  }
+
+  .roxo-text {
+
+    color: #A389D4;
+  }
+  

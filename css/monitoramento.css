@@ -1,0 +1,33 @@
+/*body{
+    background-image: linear-gradient(to left, #2af598 0%, #1dc5e9 100%);
+}*/
+
+body{
+    background-color: #ecedef;
+}
+
+.statistic {
+    font-size: 8em;
+    margin-top: 15px !important;
+  }
+
+  .card {
+    min-height: 250px;
+  }
+
+  .activator {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 600px){
+    .statistic {
+      font-size: 6em;
+    }
+  }
+
+
+.chartjsrendermonitor {
+    display: block;
+    height: 270px;
+    width: 270px;
+}
