@@ -1,0 +1,11 @@
+{
+    "name": "Highfiren",
+    "short_name": "Highfiren",
+    "description": "Web App Highfiren",
+    "display": "fullscreen",
+    "background_color": "#1dc5e9",
+    "icons": [{
+      "src": "img/high-firen-azul.png",
+      "sizes": "192x192"
+    }]
+  }
