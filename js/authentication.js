@@ -17,7 +17,7 @@ authEmailPassButton.addEventListener('click', function () {
         .then(function (result) {
             console.log(result);
             alert('Autenticado ' + emailInput.value);
-            window.location.href = "home.html";
+            window.location.href = "mapa.html";
         })
         .catch(function (error) {
             console.error(error.code);

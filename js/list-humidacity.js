@@ -22,6 +22,9 @@ function listar(lista) {
     var teste = [umidade, resto];
     //criaGrafico(teste);
 
+    //lista.innerHTML +=
+  
+
     });
 }
 
@@ -32,12 +35,22 @@ function listar(lista) {
     var db = firebase.database();
 
    // Cria os listeners dos dados no firebase
-   var tempRef = db.ref('DHT-Temperature');
+   var temperaturaRef = db.ref('DHT-Temperature');
    var umidRef = db.ref('DHT-Humidacity');
+   var umidSoilRef = db.ref('YL-69');
+   var tempSoilRef = db.ref('DS18B20');
+   var rainRef = db.ref('MH-RD');
+   var windRef = db.ref('Anemometro');
+   var dirWindRef = db.ref('Biruta');
  
    // Registra as funções que atualizam os gráficos e dados atuais da telemetria
-   tempRef.on('value', onNewData('currentTemp', 'tempLineChart' , 'Temperatura', 'C°'));
-   umidRef.on('value', onNewData('currentUmid', 'umidLineChart' , 'Umidade', '%'));
+   temperaturaRef.on('value', onNewData('currentTemp', 'tempLineChart' , 'Temperatura °C', '°C'));
+   umidRef.on('value', onNewData('currentUmid', 'umidLineChart' , 'Umidade %', '%'));
+   umidSoilRef.on('value', onNewData('currentUmidSoil', 'umidSoilLineChart', 'Umidade Solo %', '%'));
+   tempSoilRef.on('value', onNewData('currentTempSoil', 'tempSoilLineChart' , 'Temperatura Solo °C', '°C'));
+   rainRef.on('value', onNewData('currentRain', 'rainLineChart' , 'Intensidade', ''));
+   windRef.on('value', onNewData('currentWind', 'windLineChart' , 'Velocidade km/h', 'km/h'));
+   dirWindRef.on('value', onNewData('currentDirWind', 'windDirLineChart' , 'Direção', ''));
  
  })();
  
@@ -56,7 +69,7 @@ function listar(lista) {
            data.push(currentValue);
          }
          
-         var umidade = parseInt(currentValue);
+         var umidade = currentValue;
 
          document.getElementById(currentValueEl).innerText = umidade + ' ' + metric;
          
