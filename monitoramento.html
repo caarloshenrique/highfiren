@@ -8,44 +8,89 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/monitoramento.css">
   <link rel="stylesheet" href="css/geral.css">
+ 
   <link rel="stylesheet" href="materialize/css/materialize.css">
+  
   <title>Highfiren App</title>
 
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper">
-         <div class="row">
-            <div class="col s3 m3 l3">
-                <a href="home.html"><i class="material-icons prefix medium center fa fa-home roxo-text"></i></a>
-            </div>
-            <div class="col s3 m3 l3">
-                <a href="mapa.html"><i class="material-icons prefix medium center fa fa-map-marker roxo-text"></i></a>
-            </div>
-            <div class="col s3 m3 l3">
-                <a href="definicoes.html"><i class="material-icons prefix medium center fa fa-gear roxo-text"></i></a>
-            </div>
-            <div class="col s3 m3 l3">
-                <a id="logOutButton" href="index.html"><i class="material-icons prefix medium center fa fa-sign-out roxo-text"></i></a>
-            </div>
-          
-         </div>
-            
-          </div>
-        </nav>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper azul-nav">
+     <div class="row">
+        <div class="col s3 m3 l3">
+            <a href=""><i class="material-icons prefix medium center fa fa-refresh roxo-text"></i></a>
+        </div>
+        <div class="col s3 m3 l3">
+            <a href="mapa.html"><i class="material-icons prefix medium center fa fa-map-marker roxo-text"></i></a>
+        </div>
+        <div class="col s3 m3 l3">
+            <a href="definicoes.html"><i class="material-icons prefix medium center fa fa-gear roxo-text"></i></a>
+        </div>
+        <div class="col s3 m3 l3">
+            <a id="logOutButton" href="index.html"><i class="material-icons prefix medium center fa fa-sign-out roxo-text"></i></a>
+        </div>
+      
+     </div>
+        
       </div>
+    </nav>
+  </div>
     <div class="container conteudo">
+       
             <div class="row">
               <br>
-              <h5 class="black-text center">Dashboard</h5>
+              <h5 class="black-text center">Monitoramento</h5>
               <br>
-                    <div class="col s12 m6 l6">
-                        <div title="DHT-Temperature" class="card lista">
+                    <div class="col s12 m6 l12">
+                        <div title="DHT-Temperature" class="card">
 
                             <div class="card-image center">
-                                <span id="currentTemp" class="statistic black-text">-</span>
+                                <span id="currentTemp" class="statistic black-text">
+                                  <div class="preloader-wrapper big active">
+                                    <div class="spinner-layer spinner-blue">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-red">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-yellow">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-green">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </span>
                               </div>
                               <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">
@@ -64,12 +109,54 @@
                           
                             </div>
                     </div>
-                    <div class="col s12 m6 l6">
-                        <div title="DHT-Humidacity" class="card lista">
+                    <div class="col s12 m6 l12">
+                        <div title="DHT-Humidacity" class="card">
                             
                           <div class="card-image center">
-                                <span id="currentUmid" class="statistic black-text">-</span>
-                              </div>
+                                <span id="currentUmid" class="statistic black-text">
+                                  <div class="preloader-wrapper big active">
+                                    <div class="spinner-layer spinner-blue">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-red">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-yellow">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-green">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </span>
+                          </div>
                               <div class="card-content activator">
                                 <span class="card-title grey-text text-darken-4">
                                   Umidade do Ar
@@ -88,13 +175,122 @@
                         </div>
                     </div>
                   </div>
+                  <div class="row">
+                  <div class="col s12 m12 l12">
+                      <div title="MH-RD" class="card">
+                          
+                          <div class="card-image center">
+                              <span id="currentRain" class="statistic black-text">
+                                <div class="preloader-wrapper big active">
+                                  <div class="spinner-layer spinner-blue">
+                                    <div class="circle-clipper left">
+                                      <div class="circle"></div>
+                                    </div><div class="gap-patch">
+                                      <div class="circle"></div>
+                                    </div><div class="circle-clipper right">
+                                      <div class="circle"></div>
+                                    </div>
+                                  </div>
+                            
+                                  <div class="spinner-layer spinner-red">
+                                    <div class="circle-clipper left">
+                                      <div class="circle"></div>
+                                    </div><div class="gap-patch">
+                                      <div class="circle"></div>
+                                    </div><div class="circle-clipper right">
+                                      <div class="circle"></div>
+                                    </div>
+                                  </div>
+                            
+                                  <div class="spinner-layer spinner-yellow">
+                                    <div class="circle-clipper left">
+                                      <div class="circle"></div>
+                                    </div><div class="gap-patch">
+                                      <div class="circle"></div>
+                                    </div><div class="circle-clipper right">
+                                      <div class="circle"></div>
+                                    </div>
+                                  </div>
+                            
+                                  <div class="spinner-layer spinner-green">
+                                    <div class="circle-clipper left">
+                                      <div class="circle"></div>
+                                    </div><div class="gap-patch">
+                                      <div class="circle"></div>
+                                    </div><div class="circle-clipper right">
+                                      <div class="circle"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </span>
+                            </div>
+                            <div class="card-content activator">
+                              <span class="card-title grey-text text-darken-4">
+                                Intensidade Chuva
+                                <i class="material-icons right">more_vert</i>
+                              </span>
+                              <p class="black-text">Clique para ver histórico</p>
+                            </div>
+                            <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">
+                                Histórico
+                                <i class="material-icons right">close</i>
+                              </span>
+                              <canvas id="rainLineChart"></canvas>
+                            </div>
+
+                      </div>
+                  </div>
+                </div>
                   
                   <div class="row">
                         <div class="col s12 m12 l6">
-                            <div class="card">
+                            <div title="DS18B20" class="card">
 
                                 <div class="card-image center">
-                                <span id="currentTemp" class="statistic black-text">-</span>
+                                <span id="currentTempSoil" class="statistic black-text">
+                                  <div class="preloader-wrapper big active">
+                                    <div class="spinner-layer spinner-blue">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-red">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-yellow">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-green">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </span>
                               </div>
                               <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">
@@ -108,17 +304,59 @@
                                   Histórico
                                   <i class="material-icons right">close</i>
                                 </span>
-                                <canvas id=""></canvas>
+                                <canvas id="tempSoilLineChart"></canvas>
                               </div>
                           
                             </div>
                         </div>
-               
+                        
                         <div class="col s12 m12 l6">
-                            <div class="card">
+                            <div title="YL-69" class="card">
                                 
                                 <div class="card-image center">
-                                    <span id="currentUmid" class="statistic black-text">-</span>
+                                    <span id="currentUmidSoil" class="statistic black-text">
+                                      <div class="preloader-wrapper big active">
+                                        <div class="spinner-layer spinner-blue">
+                                          <div class="circle-clipper left">
+                                            <div class="circle"></div>
+                                          </div><div class="gap-patch">
+                                            <div class="circle"></div>
+                                          </div><div class="circle-clipper right">
+                                            <div class="circle"></div>
+                                          </div>
+                                        </div>
+                                  
+                                        <div class="spinner-layer spinner-red">
+                                          <div class="circle-clipper left">
+                                            <div class="circle"></div>
+                                          </div><div class="gap-patch">
+                                            <div class="circle"></div>
+                                          </div><div class="circle-clipper right">
+                                            <div class="circle"></div>
+                                          </div>
+                                        </div>
+                                  
+                                        <div class="spinner-layer spinner-yellow">
+                                          <div class="circle-clipper left">
+                                            <div class="circle"></div>
+                                          </div><div class="gap-patch">
+                                            <div class="circle"></div>
+                                          </div><div class="circle-clipper right">
+                                            <div class="circle"></div>
+                                          </div>
+                                        </div>
+                                  
+                                        <div class="spinner-layer spinner-green">
+                                          <div class="circle-clipper left">
+                                            <div class="circle"></div>
+                                          </div><div class="gap-patch">
+                                            <div class="circle"></div>
+                                          </div><div class="circle-clipper right">
+                                            <div class="circle"></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </span>
                                   </div>
                                   <div class="card-content activator">
                                     <span class="card-title grey-text text-darken-4">
@@ -132,7 +370,7 @@
                                       Histórico
                                       <i class="material-icons right">close</i>
                                     </span>
-                                    <canvas id="u"></canvas>
+                                    <canvas id="umidSoilLineChart"></canvas>
                                   </div>
 
                             </div>
@@ -141,10 +379,52 @@
 
                   <div class="row">
                       <div class="col s12 m12 l6">
-                          <div class="card">
+                          <div title="Anemometro" class="card">
                               
                               <div class="card-image center">
-                                  <span id="currentUmid" class="statistic black-text">-</span>
+                                  <span id="currentWind" class="statistic black-text">
+                                    <div class="preloader-wrapper big active">
+                                      <div class="spinner-layer spinner-blue">
+                                        <div class="circle-clipper left">
+                                          <div class="circle"></div>
+                                        </div><div class="gap-patch">
+                                          <div class="circle"></div>
+                                        </div><div class="circle-clipper right">
+                                          <div class="circle"></div>
+                                        </div>
+                                      </div>
+                                
+                                      <div class="spinner-layer spinner-red">
+                                        <div class="circle-clipper left">
+                                          <div class="circle"></div>
+                                        </div><div class="gap-patch">
+                                          <div class="circle"></div>
+                                        </div><div class="circle-clipper right">
+                                          <div class="circle"></div>
+                                        </div>
+                                      </div>
+                                
+                                      <div class="spinner-layer spinner-yellow">
+                                        <div class="circle-clipper left">
+                                          <div class="circle"></div>
+                                        </div><div class="gap-patch">
+                                          <div class="circle"></div>
+                                        </div><div class="circle-clipper right">
+                                          <div class="circle"></div>
+                                        </div>
+                                      </div>
+                                
+                                      <div class="spinner-layer spinner-green">
+                                        <div class="circle-clipper left">
+                                          <div class="circle"></div>
+                                        </div><div class="gap-patch">
+                                          <div class="circle"></div>
+                                        </div><div class="circle-clipper right">
+                                          <div class="circle"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </span>
                                 </div>
                                 <div class="card-content activator">
                                   <span class="card-title grey-text text-darken-4">
@@ -158,17 +438,59 @@
                                     Histórico
                                     <i class="material-icons right">close</i>
                                   </span>
-                                  <canvas id=""></canvas>
+                                  <canvas id="windLineChart"></canvas>
                                 </div>
 
                           </div>
                       </div>
              
                     <div class="col s12 m12 l6">
-                        <div class="card">
+                        <div title="Biruta" class="card">
                             
                             <div class="card-image center">
-                                <span id="currentUmid" class="statistic black-text">-</span>
+                                <span id="currentDirWind" class="statistic black-text">
+                                  <div class="preloader-wrapper big active">
+                                    <div class="spinner-layer spinner-blue">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-red">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-yellow">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="spinner-layer spinner-green">
+                                      <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                      </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                      </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </span>
                               </div>
                               <div class="card-content activator">
                                 <span class="card-title grey-text text-darken-4">
@@ -186,7 +508,7 @@
                               </div>
 
                         </div>
-                    </div>
+                      </div>
               </div>
            
     </div>
