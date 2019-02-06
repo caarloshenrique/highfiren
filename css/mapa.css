@@ -1,0 +1,21 @@
+
+
+body {
+    background-color: #e3e3e3;
+}
+
+.conteudo {
+    height: 90vh;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+    
+   }
+
+#map {
+    height: inherit;
+    width: inherit;
+}
+
+p {
+    font-size: 15px;
+}
+ 
