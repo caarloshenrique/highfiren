@@ -1,9 +1,26 @@
 # Highfiren
 🔥 Highfiren é um projeto de previsões temporais criado para participação na 7ª Edição do Campus Mobile - programa organizado pelo Instituto NET Claro Embratel em parceria com o Laboratório de Sistemas Integráveis Tecnológico (LSI-TEC) da Universidade de São Paulo (USP)
 
+## Interfaces
+
+### Autenticação e Cadastro
+
+<p align="center">
+    <img width="300" height="600" src="/public/auth.png">
+    <img width="300" height="600" src="/public/register.png">
+</p>
+
+### Mapa e Dashboard
+
+<p align="center">
+    <img width="300" height="600" src="/public/map.png">
+    <img width="300" height="600" src="/public/dashboard-one.png">
+    <img width="300" height="600" src="/public/dashboard-two.png">
+</p>
+
 ## Getting Started
 
-<img align="left" width="140" height="90" src="/img/materialize_logo.png">
+<img align="left" width="140" height="90" src="/public/materialize_logo.png">
 
 ### Materialize
 Materialize is a modern responsive CSS framework based on Material Design by Google.
@@ -16,7 +33,7 @@ You can also get the latest release using NPM. This release contains source file
 ```
 $ npm install materialize-css@next
 ```
-<img align="left" width="120" height="120" src="/img/logo_firebase.png">
+<img align="left" width="120" height="120" src="/public/logo_firebase.png">
 
 ### Firebase
 O Firebase é uma plataforma de desenvolvimento de aplicativos para dispositivos móveis e Web desenvolvida pela Firebase.
