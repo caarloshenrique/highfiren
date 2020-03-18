@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,57 +10,56 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="materialize/css/materialize.css">
   <link rel="manifest" href="manifest.json">
-  <link rel="icon" type="imagem/png" href="img//high-firen-azul.png" />
+  <link rel="icon" type="imagem/png" href="public/high-firen-azul.png" />
   <title>Highfiren App</title>
 </head>
-<body >
-    <div class="container">
-        <!-- Page Content goes here -->
-        <div class="row container">
+
+<body>
+  <div class="container">
+    <div class="row container">
+      <br>
+      <div class="row">
+        <center><i class="large material-icons prefix">account_circle</i></center>
+        <h4 class="center">Highfiren</h4>
+      </div>
+      <form class="col s12 m12 l12">
+        <div class="row">
+          <div class="input-field col s12 m12 l12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="emailInput" type="email" class="validate">
+            <label for="emailInput">E-mail</label>
+          </div>
+          <div class="input-field col s12 m12 l12">
+            <i class="material-icons prefix">lock</i>
+            <input id="passwordInput" type="password" class="validate">
+            <label for="passwordInput">Senha</label>
+          </div>
+        </div>
+        <div class="row">
+          <center><a id="authEmailPassButton" class="waves-effect waves-light btn-small">Entrar</a></center>
+          <br>
+          <center><a href="recuperarsenha.html">Esqueceu sua senha?</a></center>
           <br>
           <div class="row">
-              <center><i class="large material-icons prefix">account_circle</i></center>
-              <h4 class="center">Highfiren</h4>
+            <center><a class="waves-effect waves-light btn space" id="authFacebookButton"><i
+                  class="fa fa-facebook-f"></i></a>
+              <button type="submit" class="waves-effect waves-light btn space" id="authGoogleButton"><i
+                  class="fa fa-google"></i></button>
+              <a class="waves-effect waves-light btn space" id="authTwitterButton"><i class="fa fa-twitter"></i></a>
+            </center>
+            <br>
+            <center><a href="cadastro.html">Não possui uma conta? Cadastre-se</a></center>
           </div>
-            <form class="col s12 m12 l12">
-              <div class="row">
-                <div class="input-field col s12 m12 l12">
-                  <i class="material-icons prefix">account_circle</i>
-                  <input id="emailInput" type="email" class="validate">
-                  <label for="emailInput">E-mail</label>
-                </div>
-        
-                  <div class="input-field col s12 m12 l12">
-                    <i class="material-icons prefix">lock</i>
-                    <input id="passwordInput" type="password" class="validate">
-                    <label for="passwordInput">Senha</label>
-                  </div>
-        
-                  
-                  
-                </div>
-                <div class="row">
-                    <center><a id="authEmailPassButton" class="waves-effect waves-light btn-small">Entrar</a></center>
-                    <br>
-                    <center><a href="recuperarsenha.html">Esqueceu sua senha?</a></center>
-                    <br>
-                    <div class="row">
-                        <center><a class="waves-effect waves-light btn space" id="authFacebookButton"><i class="fa fa-facebook-f"></i></a>
-                          <button type="submit" class="waves-effect waves-light btn space" id="authGoogleButton"><i class="fa fa-google"></i></button>
-                          <a class="waves-effect waves-light btn space" id="authTwitterButton"><i class="fa fa-twitter"></i></a></center>
-                          <br>
-                        <center><a href="cadastro.html">Não possui uma conta? Cadastre-se</a></center>
-                    </div>
-                </div>
-                
-            </form>
-          </div>
+        </div>
+
+      </form>
     </div>
+  </div>
   <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/add-firebase.js"></script>
   <script type="text/javascript" src="materialize/js/materialize.js"></script>
   <script src="js/authentication.js"></script>
 </body>
+
 </html>
- 

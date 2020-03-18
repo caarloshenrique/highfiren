@@ -5,7 +5,7 @@
     "display": "fullscreen",
     "background_color": "#1dc5e9",
     "icons": [{
-      "src": "img/high-firen-azul.png",
+      "src": "public/high-firen-azul.png",
       "sizes": "192x192"
     }]
   }
