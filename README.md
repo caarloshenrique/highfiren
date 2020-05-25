@@ -1,5 +1,5 @@
 # Highfiren
-🔥 Highfiren é um projeto de previsões temporais criado para participação na 7ª Edição do Campus Mobile - programa organizado pelo Instituto NET Claro Embratel em parceria com o Laboratório de Sistemas Integráveis Tecnológico (LSI-TEC) da Universidade de São Paulo (USP)
+🔥 Highfiren é um projeto de previsões temporais criado para participação na 7ª Edição do Campus Mobile - programa organizado pelo Instituto NET Claro Embratel em parceria com o Laboratório de Sistemas Integráveis Tecnológico (LSI-TEC) da Universidade de São Paulo (USP).
 
 ## Interfaces
 
