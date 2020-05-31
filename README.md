@@ -1,16 +1,16 @@
 # Highfiren
 🔥 Highfiren é um projeto de previsões temporais criado para participação na 7ª Edição do Campus Mobile - programa organizado pelo Instituto NET Claro Embratel em parceria com o Laboratório de Sistemas Integráveis Tecnológico (LSI-TEC) da Universidade de São Paulo (USP).
 
-## Interfaces
+## :computer: Interfaces
 
-### Autenticação e Cadastro
+### :bust_in_silhouette: Autenticação e Cadastro
 
 <p align="center">
     <img width="300" height="600" src="/public/auth.png">
     <img width="300" height="600" src="/public/register.png">
 </p>
 
-### Mapa e Dashboard
+### :round_pushpin: Mapa e Dashboard
 
 <p align="center">
     <img width="300" height="600" src="/public/map.png">
@@ -49,7 +49,7 @@ $ firebase init    # Generate a firebase.json (REQUIRED)
 ```
 $ firebase serve   # Start development server
 ```
-## Built With
+## :hammer: Built With
 
 * [Materialize](https://materializecss.com/) - The web framework used
 * [Firebase](https://firebase.google.com/) - The database used
