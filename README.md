@@ -18,15 +18,6 @@
     <img width="300" height="600" src="/public/dashboard-two.png">
 </p>
 
-## Getting Started
-
-<img align="left" width="140" height="90" src="/public/materialize_logo.png">
-
-### Materialize
-Materialize is a modern responsive CSS framework based on Material Design by Google.
-
-<img align="left" width="120" height="120" src="/public/logo_firebase.png">
-
 ## :rocket: Tecnologias utilizadas 
 O projeto foi feito utilizando as seguintes tecnologias:
 
