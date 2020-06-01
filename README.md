@@ -25,34 +25,16 @@
 ### Materialize
 Materialize is a modern responsive CSS framework based on Material Design by Google.
 
-
-### Installing Materilize
-
-You can also get the latest release using NPM. This release contains source files as well as the compiled CSS and JavaScript files.
-
-```
-$ npm install materialize-css@next
-```
 <img align="left" width="120" height="120" src="/public/logo_firebase.png">
 
-### Firebase
-O Firebase é uma plataforma de desenvolvimento de aplicativos para dispositivos móveis e Web desenvolvida pela Firebase.
+## :rocket: Tecnologias utilizadas 
+O projeto foi feito utilizando as seguintes tecnologias:
 
-### Executar um servidor da Web local para desenvolvimento
-Ao criar um app da Web, algumas partes do SDK para JavaScript do Firebase exigem que seu app seja hospedado por um servidor, em vez de um sistema de arquivos local. Você pode usar a Firebase CLI para executar um servidor local deste modo:
-```
-$ npm install -g firebase-tools
-```
-```
-$ firebase init    # Generate a firebase.json (REQUIRED)
-```
-```
-$ firebase serve   # Start development server
-```
-## :hammer: Built With
-
-* [Materialize](https://materializecss.com/) - The web framework used
-* [Firebase](https://firebase.google.com/) - The database used
+- [JavaScript](https://www.javascript.com/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [Materialize](https://materializecss.com/)
+- [Firebase](https://firebase.google.com/)
 
 ## :page_facing_up: Licença 
 Este projeto é desenvolvido sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para saber mais detalhes.
