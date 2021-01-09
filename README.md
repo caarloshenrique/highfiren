@@ -6,16 +6,16 @@
 ### :bust_in_silhouette: Autenticação e Cadastro
 
 <p align="center">
-    <img width="300" height="600" src="/public/auth.png">
-    <img width="300" height="600" src="/public/register.png">
+    <img width="280" height="600" src="/public/auth.png">
+    <img width="280" height="600" src="/public/register.png">
 </p>
 
 ### :round_pushpin: Mapa e Dashboard
 
 <p align="center">
-    <img width="300" height="600" src="/public/map.png">
-    <img width="300" height="600" src="/public/dashboard-one.png">
-    <img width="300" height="600" src="/public/dashboard-two.png">
+    <img width="280" height="600" src="/public/map.png">
+    <img width="280" height="600" src="/public/dashboard-one.png">
+    <img width="280" height="600" src="/public/dashboard-two.png">
 </p>
 
 ## :rocket: Tecnologias utilizadas 
